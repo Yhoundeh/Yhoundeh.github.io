@@ -15,7 +15,7 @@ body {
     border-radius: 5px;
     margin: auto;
   }
-/*
+
   .top {
     background-color: blue;
     color: white;
@@ -38,7 +38,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
   }
-/*
+
   p {
     font-family: verdana;
     font-size: 20px;
@@ -56,4 +56,4 @@ body {
     font-size: 9px;
     color: yellow;
   }
-  /*
+  
