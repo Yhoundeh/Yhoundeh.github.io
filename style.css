@@ -1,13 +1,21 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700|Sofia");
+
 body {
+    font-family: Verdana, Calabri, san-sarif;
     background-color: white;
   }
   
   #card {
-    width: 900px;
+    width: 800px;
     height: 300px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 /*
   .top {
