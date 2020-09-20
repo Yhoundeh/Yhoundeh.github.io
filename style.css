@@ -14,11 +14,11 @@ body {
     transition: 0.3s;
     border-radius: 5px;
     margin: auto;
-    background-color: aqua;
+    
   }
 
   .top {
-    background-color: blue;
+    background-color: aquamarine;
     color: white;
     text-align: center;
     border-radius: 5px;
@@ -47,10 +47,15 @@ body {
 
   .bottom {
     font-size: 10px;
-    background-color: blue;
+    background-color: aquamarine;
     color: white;
     text-align: center;
     border-radius: 5px;
+    margin: 3px;
+  }
+
+  .bottom a {
+    color: white;
   }
 
   .note {
