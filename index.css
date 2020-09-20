@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  h2 {
+    
+    text-align: left;
+  }
+ 
+  img {
+    float: right;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  .bottom {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+  }
+
+  #note {
+    font-size: 9px;
+    color: yellow;
+  }
