@@ -10,6 +10,12 @@ body {
     border-radius: 5px; /* 5px rounded corners */
   }
 
+  .top {
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
+
   h1 {
     color: white;
     text-align: center;
@@ -34,6 +40,7 @@ body {
 
   .bottom {
     font-size: 10px;
+    background-color: blue;
     color: white;
     text-align: center;
   }
