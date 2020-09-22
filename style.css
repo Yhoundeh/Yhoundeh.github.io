@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-  margin: 5px;
+  margin: 10px;
   text-align: left;
 }
 
@@ -66,5 +66,5 @@ p {
 .note {
   font-size: 9px;
   color: yellow;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
