@@ -1,6 +1,6 @@
-/*small*/
+/*small and default*/
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Calabri, san-sarif;
 }
 
 main {
@@ -21,7 +21,6 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 90px;
 }
 
 header, footer {
@@ -34,6 +33,31 @@ header, footer {
     padding: 1em;
 }
 
+
+h1, h2, h3 {
+    font-family: Verdana, Calabri, san-sarif;
+}
+
+section {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    background-color: #EEE;
+}
+
+section h3 {
+    color: #ffffff;
+    background-color: rgb(92, 92, 92);
+    padding: 1em;
+    margin-top: 0;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+}
+.page {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Footer*/
 footer a, footer a:link, footer a:visited, footer a:hover, footer a:active, footer a:focus {
     color: white;
 }
@@ -47,31 +71,8 @@ footer p.legal {
     font-size: 0.9em;
 }
 
-footer p.highlight {
+footer p.modified {
     color: yellow;
     font-size: 0.8em;
     margin-top: 0;
-}
-
-h1, h2, h3 {
-    font-family: 'Poppins', sans-serif;
-}
-
-section {
-    border: black 1px solid;
-    border-radius: 15px;
-    margin: 5px;
-    background-color: #EEE;
-}
-
-section h3 {
-    color: #ffffff;
-    background-color: rgb(92, 92, 92);
-    padding: 1em;
-    margin-top: 0;
-    border-radius: 15px 15px 0px 0px;
-}
-.page{
-    margin-left: auto;
-    margin-right: auto;
 }
