@@ -25,7 +25,7 @@ img {
 
 header, footer {
     text-align: center;
-    background-color: #B80F0A;
+    background-color: #1f5baa;
     color: white;
     max-width: 1000px;
     margin-left: auto;
@@ -65,7 +65,7 @@ section {
 
 section h3 {
     color: #ffffff;
-    background-color: black;
+    background-color: rgb(92, 92, 92);
     padding: 1em;
     margin-top: 0;
     border-radius: 15px 15px 0px 0px;
