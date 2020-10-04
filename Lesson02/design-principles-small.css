@@ -1,28 +1,4 @@
 /*small and default*/
-body {
-    font-family: Verdana, Calabri, san-sarif;
-}
-
-main {
-    display: grid;
-    grid-template-columns: auto;
-    max-width: 75%;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-p {
-    padding-left: 2em;
-    padding-right: 2em;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 header, footer {
     text-align: center;
     background-color: #1f5baa;
@@ -32,7 +8,6 @@ header, footer {
     margin-right: auto;
     padding: 1em;
 }
-
 
 h1, h2, h3 {
     font-family: Verdana, Calabri, san-sarif;
@@ -52,6 +27,33 @@ section h3 {
     border-radius: 15px 15px 0px 0px;
     text-align: center;
 }
+
+/*page*/
+main {
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 75%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: Verdana, Calabri, san-sarif;
+}
+
+
+p {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .page {
     margin-left: auto;
     margin-right: auto;

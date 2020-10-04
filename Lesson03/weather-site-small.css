@@ -1,0 +1,123 @@
+
+header, footer {
+   
+    text-align: center;
+    background-color: #1f5baa;
+    color: white;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+header {
+    border-radius: 25px 25px 0px 0px;
+}
+
+footer {
+    border-radius: 0px 0px 25px 25px;
+}
+
+/*Logo*/
+img .logo {
+    width: 128px;
+    height: 128px;
+}
+
+/*Navigation Menu*/
+nav {
+    padding: 0px;
+    margin-top: -1em;
+    font-size: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: block;
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+nav ul li:hover {
+    background-color: rgb(16, 13, 56);
+}
+
+.selected {
+    background-color: rgb(16, 13, 56);
+}
+
+/*Page parts*/
+main {
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 75%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+body {
+    font-family: Verdana, Calabri, san-sarif;
+}
+
+
+p {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/*Footer*/
+footer a, footer a:link, footer a:visited, footer a:hover, footer a:active, footer a:focus {
+    color: white;
+}
+
+footer a:hover {
+    color: #DDDD;
+}
+
+footer p.legal {
+    margin-bottom: 9px;
+    font-size: 0.9em;
+}
+
+footer p.modified {
+    color: yellow;
+    font-size: 0.8em;
+    margin-top: 0;
+}
+
+@media only screen and (min-width: 700px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    nav ul {
+        align-items: flex-start;     
+        flex-wrap: nowrap;
+        background: none;
+    }
+}
