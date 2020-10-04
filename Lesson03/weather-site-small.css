@@ -1,9 +1,8 @@
 
 header, footer {
-   
     text-align: center;
     background-color: #1f5baa;
-    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -11,15 +10,18 @@ header, footer {
 }
 
 header {
+    color: white;
     border-radius: 25px 25px 0px 0px;
 }
 
 footer {
+    color: white;
     border-radius: 0px 0px 25px 25px;
 }
 
 /*Logo*/
-img .logo {
+header img {
+    float:left;
     width: 128px;
     height: 128px;
 }
@@ -55,6 +57,10 @@ nav ul li:hover {
     background-color: rgb(16, 13, 56);
 }
 
+nav ul a:hover {
+    color: yellow;
+}
+
 .selected {
     background-color: rgb(16, 13, 56);
 }
@@ -74,6 +80,9 @@ body {
     font-family: Verdana, Calabri, san-sarif;
 }
 
+main h2 {
+    border-bottom: 1px solid black;
+}
 
 p {
     padding-left: 2em;
@@ -121,3 +130,40 @@ footer p.modified {
         background: none;
     }
 }
+
+/*Experimental-Tidy up!*/
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+    
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+    color: grey;
+  }
+  
+  .primary {
+    background-color: white;
+    border: 1px solid black;
+  }
+  .secondary {
+    background-color: #1f5baa;
+  }
+  .accent1 {
+    background-color: rgb(16, 13, 56);
+  }
+  .accent2{
+    background-color: yellow;
+  }
+  
+  p.colored {
+    background-color: black;
+    color: white;
+  }
