@@ -89,6 +89,19 @@ p {
     padding-right: 2em;
 }
 
+#typography {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#typography td {
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%; 
+}
+
 /*Footer*/
 footer a, footer a:link, footer a:visited, footer a:hover, footer a:active, footer a:focus {
     color: white;
@@ -103,7 +116,7 @@ footer p.legal {
     font-size: 0.9em;
 }
 
-footer p.modified {
+.modified {
     color: yellow;
     font-size: 0.8em;
     margin-top: 0;
