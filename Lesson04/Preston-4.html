@@ -1,32 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aaron's Weather Emporium</title>
+        <link rel="stylesheet" href="/Lesson04/css/normalize.css" />
+        <link rel="stylesheet" href="/Lesson04/css/Preston-4.css" />
+        <script src="/Lesson04/js/Preston-4.js"></script>
     </head>
     <body>
         <header>
+            <img src="/Lesson04/images/storm_logo.png" alt="Aaron's Weather Emporium Icon">
+            <h1>Home</h1>
             <nav>
-                <meta charset="UTF-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Aaron's Weather Emporium</title>
-                <link rel="stylesheet" href="Lesson03/normalize.css" />
-                <link rel="stylesheet" href="weather-site-small.css" />
-                <link rel="stylesheet" href="weather-site-medium.css" />
+                    <ul class="navigation responsive">
+                    <li><a class="ham" href="#">&#9776; Menu</a></li>
+                    <li class="selected"><a href="Preston-4.html">Home</a></li>
+                    <li><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    </ul>
             </nav>
         </header>
         <main>
-
+          <h2>Preston, Idaho</h2>
+          <div class="box">
+              <p>Hero w/ weather summary</p>
+          </div>
+          <div class="box">
+              <p>5 Day Forcast</p>
+          </div>
+          <div class="box">
+              <p>Article</p>
+          </div>
+          <div class="box">
+              <p>Contact Information</p>
+          </div>
         </main>
         <footer>
+          <section class="contact">
+            <p>aaronsweatheremporium@gmail.com</p>
+            <p>For service call: 123-456-7891</p>
+            <p>Or mail us at 123 Rocky Rd Nowhere, Idaho</p>
+          </section>
+          <div class="map-box box">Location Map</div>
+          <section>
             <p class="legal">
-            &#169; <script type="text/javascript">year();</script> | Aaron W. Dunn| Rexburg,
-                Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
-              </p>
-              <p class="modified">
-                Date modified: <script type="text/javascript">
-                  modified();
-                </script>
-              </p>
+            &#169; <span id="copyrightyear">2020</span> | Aaron W. Dunn| Rexburg,
+            Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+          </p>
+          <p class="modified">
+              Date modified: <script type="text/javascript">
+                modified();
+              </script>
+          </p>
+        </section>
+            
         </footer>
     </body>
 </html>

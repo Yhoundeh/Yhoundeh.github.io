@@ -16,3 +16,13 @@ window.addEventListener('load',(event)=>{
       classList property - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
       */
 });
+
+function year() {
+  var d = new Date();
+  document.write(d.getFullYear()); 
+}
+
+function modified() {
+  
+  document.write(document.lastModified);
+}

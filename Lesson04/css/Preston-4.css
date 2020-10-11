@@ -1,0 +1,194 @@
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.responsive li {
+	display: block;
+}
+
+header, footer {
+    background-color: #1f5baa;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+header {
+    text-align: center;
+    color: white;
+    
+}
+
+footer {
+    color: white;
+    display: grid fr fr fr; 
+}
+
+/*Logo*/
+header img {
+    float:left;
+    width: 128px;
+    height: 128px;
+}
+
+/*Navigation Menu*/
+nav {
+    padding: 0px;
+    margin-top: -1em;
+    font-size: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: block;
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+nav ul li:hover {
+    background-color: rgb(16, 13, 56);
+}
+
+nav ul a:hover {
+    color: yellow;
+}
+
+.selected {
+    background-color: rgb(16, 13, 56);
+}
+
+/*Page parts*/
+main {
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 75%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+body {
+    font-family: Verdana, Calabri, san-sarif;
+}
+
+main h2 {
+    border-bottom: 1px solid black;
+}
+
+p {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+
+/*Footer*/
+footer a, footer a:link, footer a:visited, footer a:hover, footer a:active, footer a:focus {
+    color: white;
+}
+
+footer a:hover {
+    color: #DDDD;
+}
+
+footer p.legal {
+    margin-bottom: 9px;
+    font-size: 0.9em;
+    text-align: center; 
+}
+
+.modified {
+    color: yellow;
+    font-size: 0.8em;
+    margin-top: 0;
+    text-align: center;
+}
+
+footer .contact {
+    text-align: left;
+    clear: both;
+    grid-column: 3;
+}
+
+.map-box {
+    float: left;
+    clear: both;
+    grid-column: 1;
+}
+
+/*Experimental-Tidy up!*/
+  @media only screen and (min-width: 700px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+    header {
+		text-align: center;
+	}
+	
+	.navigation {
+		display: flex;
+	}
+
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+
+	.navigation li:first-child {
+		display: none;
+	}
+
+	.ham {
+		display: none;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    nav ul {
+        align-items: flex-start;     
+        flex-wrap: nowrap;
+        background: none;
+    }
+
+    header {
+		text-align: center;
+		font-size: 1.5em;
+    }
+
+    .box {
+        border: 2px solid black;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        min-width: 200px;
+        min-height: 100px;
+    }
+}
