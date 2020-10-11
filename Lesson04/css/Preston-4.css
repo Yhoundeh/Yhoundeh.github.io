@@ -112,10 +112,10 @@ footer a:hover {
     color: #DDDD;
 }
 
-footer p.legal {
+.legal {
     margin-bottom: 9px;
     font-size: 0.9em;
-    text-align: center; 
+    text-align: center;
 }
 
 .modified {
@@ -123,6 +123,7 @@ footer p.legal {
     font-size: 0.8em;
     margin-top: 0;
     text-align: center;
+    grid-column: 2;
 }
 
 footer .contact {
@@ -134,7 +135,9 @@ footer .contact {
 .map-box {
     float: left;
     clear: both;
+    max-width: 200px;
     grid-column: 1;
+    grid-row: 1;
 }
 
 /*Experimental-Tidy up!*/
