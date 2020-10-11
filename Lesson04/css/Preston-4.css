@@ -27,7 +27,8 @@ header {
 
 footer {
     color: white;
-    display: grid fr fr fr; 
+    display: grid; 
+    grid-template-columns: fr fr fr;
 }
 
 /*Logo*/
