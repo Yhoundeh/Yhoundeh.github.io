@@ -75,5 +75,10 @@ p {
   font-size: larger;
   text-emphasis: bold;
   color: white;
+  background-image: linear-gradient(to left, turquoise , darkcyan);
+  padding: 2px;
+}
+
+#banner:hover {
   background-image: linear-gradient(to right, turquoise , darkcyan);
 }
