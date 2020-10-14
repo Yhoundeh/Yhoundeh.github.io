@@ -75,4 +75,5 @@ p {
   font-size: larger;
   text-emphasis: bold;
   color: white;
+  background-image: linear-gradient(to right, turquoise , darkcyan);
 }
