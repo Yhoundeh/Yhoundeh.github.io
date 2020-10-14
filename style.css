@@ -68,3 +68,11 @@ p {
   color: yellow;
   margin-bottom: 10px;
 }
+
+#banner {
+  text-align: center;
+  background-color: turquoise;
+  font-size: larger;
+  text-emphasis: bold;
+  color: white;
+}
