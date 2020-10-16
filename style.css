@@ -31,6 +31,7 @@ h1 {
 h2 {
   margin: 10px;
   text-align: left;
+  padding-bottom: 2px;
 }
 
 a:hover {
@@ -48,6 +49,7 @@ img {
 p {
   font-family: verdana;
   font-size: 20px;
+  padding-bottom: 1px;
 }
 
 .bottom {
@@ -58,6 +60,7 @@ p {
   border-radius: 5px;
   margin-top: 5px;
   padding-bottom: 0.5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .bottom a {

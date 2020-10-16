@@ -1,0 +1,19 @@
+#background {
+    position: relative;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0) 35%, rgba(0,193,255,0.7007002630153624) 100%);
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.arrowright {
+    position: absolute;
+    top: 1em;
+    right: 2em;
+}
+
+.arrowleft {
+    position: absolute;
+    top: 1em;
+    left: 2em;
+}
