@@ -15,6 +15,10 @@ window.addEventListener('load',(event)=>{
     
       classList property - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
       */
+     const b = document.querySelector("#banner");
+  today = new Date().getDay();
+  if(today==6){
+    b.style.display = "block";
 });
 
 function year() {
