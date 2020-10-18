@@ -17,7 +17,7 @@ window.addEventListener('load',(event)=>{
       */
      const b = document.querySelector("#banner");
   today = new Date().getDay();
-  if(today==6){
+  if(today==5){
     b.style.display = "block";
   }
 });
