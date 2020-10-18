@@ -10,7 +10,7 @@
     </head>
     <body>
         <header>
-            <img src="/Lesson04/images/storm_logo.png" alt="Aaron's Weather Emporium Icon">
+            <img src="/Lesson05/images/storm_logo.png" alt="Aaron's Weather Emporium Icon">
             <h1>Home</h1>
             <nav>
                     <ul class="navigation responsive">
@@ -26,24 +26,68 @@
         </header>
         <main>
           <h2>Preston, Idaho</h2>
+          <div class="heroBanner">
+            <img src="images/Storm.jpg" alt="banner">
+            <div class="current">
+                <h3>Current Weather</h3>
+                <p>
+                  <br> Currently: Sunny<br>
+                   High: 76º<br>
+                    Wind Chill: ºF<br>
+                     Humidity: 69% <br>
+                      Windspeed: 5mph
+                </p>
+            </div>
+        </div>
+        <h3>Five Day Weather Forecast</h3>
+        <div class="five-day-wrapper">
+          <section class="five-day-container">
+            <div class="day">
+              <p class="weekday">Mon</p>
+              <p class="temp">70℉</p>
+            </div>
+            <div class="day">
+              <p class="weekday">Tues</p>
+              <p class="temp">65℉</p>
+            </div>
+            <div class="day">
+              <p class="weekday">Wed</p>
+              <p class="temp">64℉</p>
+            </div>
+            <div class="day">
+              <p class="weekday">Thurs</p>
+              <p class="temp">58℉</p>
+            </div>
+            <div class="day">
+              <p class="weekday">Fri</p>
+              <p class="temp">45℉</p>
+            </div>
+          </section>
+        </div>
           <div class="box">
-              <p>weather summary</p>
-          </div>
-          <div class="box">
-              <p>5 Day Forcast</p>
-          </div>
-          <div class="box">
-              <p>Article</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Esse voluptate beatae excepturi sequi accusamus dignissimos 
+                pariatur dolore quis ullam, tempora corporis, nostrum totam 
+                repellendus porro quos consequatur nesciunt quam sed? Lorem
+                 ipsum dolor sit amet, consectetur adipisicing elit. Sint 
+                 eveniet vero laborum! Inventore excepturi et, quidem 
+                 laudantium obcaecati numquam odit nam sequi accusamus nulla
+                  porro explicabo recusandae itaque aliquam reprehenderit. 
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Totam iure, quod velit soluta praesentium voluptas suscipit a
+                  ad, aliquam, laborum exercitationem! Nam fuga illo accusamus 
+                  voluptatibus cumque consequuntur dignissimos placeat.</p>
           </div>
         </main>
         <footer>
-          <section class="contact">
+          <div class="map-box box"><img src="images/preston map.png"></div>
+          <div class="contact">
             <p>aaronsweatheremporium@gmail.com</p>
             <p>For service call: 123-456-7891</p>
             <p>Or mail us at 123 Rocky Rd Nowhere, Idaho</p>
-          </section>
-          <div class="map-box box">Location Map</div>
-          <span>
+          </div>
+          
+          <div class="footerbar">
             <p class="legal">
             &#169; <span id="copyrightyear">2020</span> | Aaron W. Dunn| Rexburg,
             Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
@@ -53,8 +97,7 @@
                 modified();
               </script>
           </p>
-        </span>
-            
+        </div>
         </footer>
     </body>
 </html>

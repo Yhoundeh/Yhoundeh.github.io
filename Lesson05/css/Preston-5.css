@@ -13,7 +13,6 @@
 header, footer {
     background-color: #1f5baa;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
@@ -81,6 +80,7 @@ nav ul a:hover {
 main {
     display: grid;
     grid-template-columns: auto;
+    grid-gap: 1em;
     max-width: 75%;
     padding: 10px;
     margin-left: auto;
@@ -101,7 +101,34 @@ p {
     padding-right: 2em;
 }
 
-
+fiveday {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .five-day-wrapper {
+    background-color: #1f5baa;;
+  }
+  
+  .five-day-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 3px 3px 10px #88888879;
+    background-color: #1f5baa;
+    color: white;
+    column-gap: 1px;
+  }
+  
+  .day {
+    border: 1px solid rgb(16, 13, 56);
+  }
 
 /*Footer*/
 footer a, footer a:link, footer a:visited, footer a:hover, footer a:active, footer a:focus {
@@ -112,34 +139,38 @@ footer a:hover {
     color: #DDDD;
 }
 
-.legal {
-    margin-bottom: 9px;
-    font-size: 0.9em;
-    text-align: center;
-    grid-column: 3;
-    grid-row: 2;
+footer h1 {
+  font-size: 12px;
+  font-family: Verdana, Calabri, san-sarif;
 }
 
-.modified {
+footer div.contact { 
+font-size: 0.7em;
+}
+
+footer .map-box {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+footer .map-box img {
+    max-width: 300px;
+}
+
+.footerbar {
+  clear: both;
+  text-align: center;
+  grid-column: 1 / 3;
+}
+
+.footerbar p.legal {
+   margin-bottom: 9px;
+   font-size: .9em;
+}
+
+.footerbar p.modified {
     color: yellow;
-    font-size: 0.8em;
-    margin-top: 0;
-    text-align: center;
-    grid-column-end: span;
-}
-
-footer .contact {
-    text-align: left;
-    clear: both;
-    grid-column: 3;
-}
-
-.map-box {
-    float: left;
-    clear: both;
-    max-width: 200px;
-    grid-column: 1;
-    grid-row: 1;
+    font-size: 0.8em; 
 }
 
 /*Experimental-Tidy up!*/
@@ -175,6 +206,8 @@ footer .contact {
 	.ham {
 		display: none;
     }
+
+    
 }
 
 @media only screen and (min-width: 960px) {
@@ -190,11 +223,34 @@ footer .contact {
     }
 
     .box {
-        border: 2px solid black;
         margin-left: 0px;
         margin-right: 0px;
         padding: 0px;
         min-width: 200px;
         min-height: 100px;
     }
+    footer div.contact { 
+        padding-left: 10em;
+        font-size: 1em;
+        }
+}
+.heroBanner img {
+    max-width: 100%;
+}
+
+.heroBanner {
+	padding: 0;
+	position: relative;
+	margin-bottom: 1.7em;
+}
+
+.current {
+    position: absolute;
+    width: 220px;
+    height: 200px;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(3, 23, 59, 0.445);
+    padding-bottom: 0;
+    color: whitesmoke;
 }
