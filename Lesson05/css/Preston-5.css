@@ -130,6 +130,41 @@ fiveday {
     border: 1px solid rgb(16, 13, 56);
   }
 
+  .heroBanner img {
+    max-width: 100%;
+}
+
+.heroBanner {
+	padding: 0;
+	position: relative;
+	margin-bottom: 1.7em;
+}
+
+.current {
+    position: absolute;
+    width: 220px;
+    height: 200px;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(3, 23, 59, 0.445);
+    padding-bottom: 0;
+    color: whitesmoke;
+}
+#banner{
+    text-align: center;
+    background-color: rgb(16, 13, 56);;
+    padding: 20px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+  }
+  #banner:hover{
+    background-color: #1f5baa;
+    color:yellow;
+  }
+  .hidden{
+    display:none;
+  }
+
 /*Footer*/
 footer a, footer a:link, footer a:visited, footer a:hover, footer a:active, footer a:focus {
     color: white;
@@ -234,37 +269,3 @@ footer .map-box img {
         font-size: 1em;
         }
 }
-.heroBanner img {
-    max-width: 100%;
-}
-
-.heroBanner {
-	padding: 0;
-	position: relative;
-	margin-bottom: 1.7em;
-}
-
-.current {
-    position: absolute;
-    width: 220px;
-    height: 200px;
-    top: 10px;
-    left: 10px;
-    background-color: rgba(3, 23, 59, 0.445);
-    padding-bottom: 0;
-    color: whitesmoke;
-}
-#banner{
-    text-align: center;
-    background-color: rgb(16, 13, 56);;
-    padding: 20px 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke;
-  }
-  #banner:hover{
-    background-color: #1f5baa;
-    color:yellow;
-  }
-  .hidden{
-    display:none;
-  }
