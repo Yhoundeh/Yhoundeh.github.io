@@ -100,7 +100,7 @@ p {
     padding-left: 2em;
     padding-right: 2em;
 }
-
+/*five day forcast*/
 fiveday {
     font-family: 'Quicksand', sans-serif;
     font-size: 12px;
@@ -150,6 +150,7 @@ fiveday {
     padding-bottom: 0;
     color: whitesmoke;
 }
+
 #banner{
     text-align: center;
     background-color: rgb(16, 13, 56);;
@@ -157,10 +158,12 @@ fiveday {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
   }
+
   #banner:hover{
     background-color: #1f5baa;
     color:yellow;
   }
+
   .hidden{
     display:none;
   }
