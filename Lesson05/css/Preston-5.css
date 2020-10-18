@@ -100,6 +100,7 @@ p {
     padding-left: 2em;
     padding-right: 2em;
 }
+
 /*five day forcast*/
 fiveday {
     font-family: 'Quicksand', sans-serif;
@@ -111,11 +112,11 @@ fiveday {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
   
-  .five-day-wrapper {
+  .five-day-bar {
     background-color: #1f5baa;;
   }
   
-  .five-day-container {
+  .five-day-box {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     text-align: center;
@@ -126,8 +127,16 @@ fiveday {
     column-gap: 1px;
   }
   
-  .day {
+  .daybox {
     border: 1px solid rgb(16, 13, 56);
+  }
+
+  p.day {
+    font-style: bold;
+  }
+
+  .temp {
+      font-style: italic;
   }
 
   .heroBanner img {
@@ -147,8 +156,11 @@ fiveday {
     top: 10px;
     left: 10px;
     background-color: rgba(3, 23, 59, 0.445);
-    padding-bottom: 0;
     color: whitesmoke;
+}
+
+.current h3 {
+    text-align: center;
 }
 
 #banner{
@@ -244,8 +256,14 @@ footer .map-box img {
 	.ham {
 		display: none;
     }
-
     
+    .fiveday h3 {
+        font-size: 16px;
+      }
+    
+      .day {
+        font-size: 16px;
+      }
 }
 
 @media only screen and (min-width: 960px) {
@@ -272,3 +290,5 @@ footer .map-box img {
         font-size: 1em;
         }
 }
+
+
