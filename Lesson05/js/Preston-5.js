@@ -19,6 +19,7 @@ window.addEventListener('load',(event)=>{
   today = new Date().getDay();
   if(today==6){
     b.style.display = "block";
+  }
 });
 
 function year() {
