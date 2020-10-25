@@ -207,6 +207,11 @@ footer div.contact img {
     border-radius: 25px;
 }
 
+footer .map-box {
+    min-width: 100px;
+    max-width: 100px;
+}
+
 footer .map-box img {
     max-width: 300px;
     margin-left: 5em;
