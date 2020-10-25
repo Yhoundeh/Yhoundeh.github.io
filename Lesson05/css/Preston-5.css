@@ -36,7 +36,12 @@ header img {
     width: 128px;
     height: 128px;
 }
-
+header p {
+    text-align: left;
+    font-style: italic;
+    font-size: 0.5em;
+    margin-bottom: 4em;
+}
 /*Navigation Menu*/
 nav {
     padding: 0px;
@@ -198,13 +203,14 @@ footer div.contact {
 font-size: 0.7em;
 }
 
-footer .map-box {
-    min-width: 100px;
-    max-width: 100px;
+footer div.contact img {
+    border-radius: 25px;
 }
 
 footer .map-box img {
     max-width: 300px;
+    margin-left: 5em;
+    padding-left: 20px;
 }
 
 .footerbar {
@@ -222,9 +228,21 @@ footer .map-box img {
     color: yellow;
     font-size: 0.8em; 
 }
+@media only screen and (max-width: 830px) {
+    footer div.contact { 
+        font-size: 0.7em;
+        margin-top: 14em; 
+        padding-right: 1em;
+        }
 
+    .five-day-box {
+        display: inline;
+        padding: 0;
+        }
+        
+}
 /*Experimental-Tidy up!*/
-  @media only screen and (min-width: 700px) {
+  @media only screen and (min-width: 740px) {
     h1 {
         font-size: 2.5em;
     }
@@ -261,9 +279,13 @@ footer .map-box img {
         font-size: 16px;
       }
     
-      .day {
+    .day {
         font-size: 16px;
       }
+
+      footer div.contact img {
+        margin-left: 2em;
+    }
 }
 
 @media only screen and (min-width: 960px) {
@@ -290,5 +312,3 @@ footer .map-box img {
         font-size: 1em;
         }
 }
-
-
