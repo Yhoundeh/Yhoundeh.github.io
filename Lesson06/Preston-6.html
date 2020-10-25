@@ -8,11 +8,12 @@
         <link rel="stylesheet" href="/Lesson06/css/Preston-6.css" />
         <link rel="shortcut icon" href="favicon.ico">
         <script src="/Lesson06/js/Preston-6.js"></script>
+        <script src="/Lesson06/js/windchill.js"></script>
     </head>
     <body>
       <div id="banner" class="hidden">Preston Pancakes in the Park! 9:00 a.m. Saturday at the city pavilion. </div>
         <header>
-            <img src="/Lesson05/images/storm_logo.png" alt="Aaron's Weather Emporium Icon">
+            <img src="/Lesson06/images/storm_logo.png" alt="Aaron's Weather Emporium Icon">
             <h1>Home</h1>
             <p>What's the weather in your neigborhood like?</p>
             <nav>
@@ -31,17 +32,18 @@
           <h2>Preston, Idaho</h2>
           <div class="heroBanner">
             <picture>
-              <source media="(max-width:740px)" srcset="/Lesson06/images/Storm-small.webp">
-              <img src="/Lesson06/images/Storm.webp" alt="banner" style="width:auto;">
+              <source media="(max-width:640px)" srcset="/Lesson06/images/wdd230_image_franklinOriginal-small.webp">
+                <source media="(max-width:840px)" srcset="/Lesson06/images/wdd230_image_franklinOriginal-medium.webp">
+              <img src="/Lesson06/images/wdd230_image_franklinOriginal.webp" alt="banner" style="width:auto;">
             </picture>
             <div class="current">
                 <h3>Current Weather</h3>
                 <p>
-                  <br> Currently: Sunny<br>
-                   High: 76ºF<br>
-                    Wind Chill: ºF<br>
-                     Humidity: 69% <br>
-                      Windspeed: 5mph
+                  Currently: Sunny<br>
+                  Tempature:<span id="temp">39</span>ºF<br>
+                  Wind Chill: <span id="windchill"> - </span>
+                  Humidity: 69% <br>
+                  Wind Speed: <span id="wind">4</span> MPH
                 </p>
             </div>
         </div>
