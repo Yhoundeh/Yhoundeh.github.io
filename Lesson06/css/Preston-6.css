@@ -166,10 +166,8 @@ fiveday {
     color: whitesmoke;
   }
 
-  #banner:hover{
-    background-color: #1f5baa;
-    color:yellow;
-  }
+  
+  
 
   .hidden{
     display:none;
@@ -219,6 +217,18 @@ footer .map-box img {
     color: yellow;
     font-size: 0.8em; 
 }
+
+#banner:hover{
+    background-color: red;
+    color:yellow;
+  }
+
+  #banner::first-letter {
+    font-weight: bold;
+    font-size: xx-large;
+    color: green;
+  }
+
 @media only screen and (max-width: 830px) {
     footer div.contact { 
         font-size: 0.7em;
