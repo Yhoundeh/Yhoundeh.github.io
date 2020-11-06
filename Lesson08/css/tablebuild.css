@@ -63,3 +63,7 @@ tr:nth-child(5) td:first-of-type {
 td, th {
     padding: 0.2em;
 }
+
+#dark {
+    background-color: #628ca6;
+}
