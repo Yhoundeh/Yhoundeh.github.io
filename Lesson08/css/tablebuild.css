@@ -30,13 +30,18 @@ thead tr th {
 tbody tr td {
     font-size: 24px;
 }
+tbody tr th {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+}
 tbody tr {
     background-color:  #e7f0ed;
 }
 tbody tr:nth-child(odd) {
     background-color:  #e7ffed;
 }
-#dark {
+#Nov {
     background-color: #628ca6;
     color: white;
 }
