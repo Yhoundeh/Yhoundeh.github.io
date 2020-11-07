@@ -1,69 +1,47 @@
-table {
-    border-collapse: collapse;
-    font-family: Ubuntu, sans-serif;
-    border-color: lightgray;
-    font-size: 32px;
-}
-
-tr:nth-child(odd) {
-    background-color: #e7ffed;
-}
-
-tr:nth-child(even) {
-    background-color: #e7f0ed;
-}
-
 h1 {
     text-align: center;
 }
-
-table, caption {
-    box-shadow: 10px 5px 5px #628ca6;
-    margin: 0 auto;
+body {
+    font-family: 'Ubuntu', sans-serif;
 }
-
-caption {
-    background: #7fb9c7;
-    font-weight: bold;
-    padding: 5px;
-}
-
-th {
-    background-color: #628ca6;
-    color: white;
-    font-weight: bold;
-}
-
-td {
-    box-sizing: border-box;
+table, tr, td, th {
+    border: 1px solid #BBBBBB;
+    border-collapse: collapse;
     text-align: center;
-    font-weight: lighter;
-    font-size: 38px;
 }
-
-tr:nth-child(5) td:nth-child(3) {
-    background-color: #628ca6;
-    color: white;
+table {
+    margin: 0 auto;
+    width: 360px;
+    height: 400px;
+    box-shadow: 10px 10px 15px #628ca6;
 }
-
 thead tr td  {
     background-color: #7fb9c2;
     font-weight: bold;
+    font-size: 34px;
+    padding: 5px;
 }
-
-tfoot tr td  {
-    background-color: #7fb9c2;
+thead tr th {
+    background-color: #628ca6;
+    color: white;
+    font-weight: bold;
     font-size: 24px;
 }
-
-tr:nth-child(5) td:first-of-type {
-    font-style: italic;
+tbody tr td {
+    font-size: 24px;
 }
-
-td, th {
-    padding: 0.2em;
+tbody tr {
+    background-color:  #e7f0ed;
 }
-
+tbody tr:nth-child(odd) {
+    background-color:  #e7ffed;
+}
 #dark {
     background-color: #628ca6;
+    color: white;
+}
+tfoot td {
+    padding: 5px 0;
+    background-color: #7fb9c2;
+    font-size: 16px;
 }
