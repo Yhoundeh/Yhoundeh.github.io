@@ -1,0 +1,53 @@
+h1, h2 {
+    text-align: center; 
+    font-family: 'Merriweather', sans-serif;
+    color: #4d4d96;
+    font-weight: bold;
+ }
+ 
+ p{
+     font-family: "Roboto", sans-serif;
+ }
+ main {
+    background-color: #dddddd;
+    box-shadow: 0px 0px 25px grey;
+ }
+ section{
+     padding: 19px;
+     border: 1px solid #4d4d96;
+     text-align: center;
+     background-color: #b9b9cc;
+ }
+ 
+ .cards{
+     width: 90%;
+     margin: auto;
+     padding-top: 3em;
+ }
+ 
+ img{max-width: 200px;}
+ 
+ footer {
+    text-align: center;
+    padding-top: 2em;
+ }
+
+ @media only screen and (min-width: 600px) and (max-width: 1230px){
+ 
+ .cards{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 10px;
+ }
+ 
+ }
+ 
+ @media only screen and (min-width: 1230px){ 
+ 
+     .cards{
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+         gap: 10px;
+     }
+     
+ }
