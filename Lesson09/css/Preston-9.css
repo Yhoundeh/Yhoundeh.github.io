@@ -15,7 +15,7 @@ header, footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
+    padding: 0.5em;
     color: white;
 }
 
@@ -229,10 +229,17 @@ footer .map-box img {
     color: green;
   }
 
+  .towns {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #1f5baa;
+}
+
 @media only screen and (max-width: 830px) {
     footer div.contact { 
         font-size: 0.7em;
-        margin-left: 25%;
+        margin-left: 15%;
         }
 
     .five-day-box {
@@ -316,12 +323,17 @@ footer .map-box img {
         min-height: 100px;
     }
     footer div.contact { 
-        padding-left: 10em;
+        padding-left: 1em;
         font-size: 1em;
         }
+
     footer .map-box img {
-        max-width: 500px;
+        max-width: 400px;
     }
+
+    .towns {
+        flex-wrap: nowrap;
+        }
 }
 
 
@@ -347,3 +359,25 @@ footer .map-box img {
 form p {
     font-size: xx-small ;
  }
+
+ .towns img {
+    max-width: 320px;
+    margin: 0.5em;
+ }
+
+
+
+.data {
+    color: white;
+    padding: 1em;
+}
+h3:nth-of-type(3) {
+    padding: 0em;
+}
+.towns a:hover {
+    background-color: #2893ea;
+}
+
+h4, h3 {
+    text-align: center;
+}

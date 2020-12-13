@@ -95,7 +95,7 @@ window.addEventListener('load', (event)=>{
                   link.setAttribute('href', '#');
               }
               else if (towns[i].name == 'Preston'){
-                  link.setAttribute('href', '#');
+                  link.setAttribute('href', 'Preston-9.html');
               }
               else if (towns[i].name == 'Soda Springs'){
                   link.setAttribute('href', '#');
