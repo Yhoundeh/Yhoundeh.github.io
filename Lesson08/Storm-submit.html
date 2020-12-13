@@ -10,7 +10,6 @@
     <script src="/Lesson08/js/windchill.js"></script>
 </head>
 <body>
-  <div id="banner" class="hidden">Preston Pancakes in the Park! 9:00 a.m. Saturday at the city pavilion. </div>
     <header>
         <img src="/Lesson08/images/storm_logo.png" alt="Aaron's Weather Emporium Icon">
         <h1>Storm Center</h1>
@@ -35,12 +34,12 @@
             <fieldset>
                 <legend>Contact Information</legend>
                 <section>
-                    <label class="upper">Full Name* <input type="text" name="fname" required=""></label>
+                    <label>Full Name* <input type="text" name="fname" required=""></label>
                 </section>
                 <br>
                 <section>
-                    <label class="upper">Phone* <input type="tel" name="phone" placeholder="###-###-####" required=""></label>
-                    <label class="upper">Email <input type="email" name="email" placeholder="user@gmail.com"></label>
+                    <label>Phone* <input type="tel" name="phone" placeholder="###-###-####" required=""></label>
+                    <label>Email <input type="email" name="email" placeholder="user@gmail.com"></label>
                     <label id="zip">Zip Code* <input type="number" name="zip" required="" size="5"></label>
                 </section>
                 <p>Fields marked * are required</p>
@@ -48,8 +47,8 @@
             <fieldset>
                 <legend>Storm Information</legend>
                 <section>
-                    <label class="upper">Storm Date <input type="date" name="stormDate"></label>
-                <label class="upper">
+                    <label >Storm Date <input type="date" name="stormDate"></label>
+                <label >
                     Storm Type
                     <input type="text" list="stormType" name="stormType">
                     <datalist id="stormType">
@@ -60,7 +59,7 @@
                         </option><option value="Tornado">
                     </option></datalist>
                 </label>
-                <label class="upper">Storm Region
+                <label >Storm Region
                     <select name="stormRegion">
                         <option value="">Select Region ▾</option>
                         <option value="preston">Preston</option>
@@ -71,7 +70,7 @@
                 </section>
                 <br>
                 <section>
-                    <label class="upper">Storm Severity</label>
+                    <label >Storm Severity</label>
                 <input type="range" id="rating" value="1" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 <span id="ratingvalue">-</span>
                 <datalist id="tickmarks">
