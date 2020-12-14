@@ -17,7 +17,7 @@ window.addEventListener('load',(event)=>{
       */
      const b = document.querySelector("#banner");
   today = new Date().getDay();
-  if(today==1){
+  if(today==3){
     b.style.display = "block";
   }
 });
@@ -30,4 +30,8 @@ function year() {
 function modified() {
   
   document.write(document.lastModified);
+}
+
+function adjustRating(rating) {
+  document.getElementById("ratingvalue").innerHTML = rating;
 }

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aaron's Weather Emporium</title>
+        <link rel="stylesheet" href="/Lesson11/css/normalize.css" />
+        <link rel="stylesheet" href="/Lesson11/css/weather_site-11.css" />
+        <link rel="shortcut icon" href="favicon.ico">
+        <script src="/Lesson11/js/scripts-11.js"></script>
+        <script src="/Lesson11/js/weather-11.js"></script>
+    </head>
+    <body>
+      <div id="banner" class="hidden">Preston Pancakes in the Park! 9:00 a.m. Saturday at the city pavilion. </div>
+        <header>
+            <img src="/Lesson11/images/storm_logo.png" alt="Aaron's Weather Emporium Icon">
+            <h1>Home</h1>
+            <p>What's the weather in your neigborhood like?</p>
+            <nav>
+              <ul class="navigation responsive">
+              <li><a class="ham" href="#">&#9776; Menu</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Preston-11.html">Preston</a></li>
+              <li class="selected"><a href="Soda_springs-11.html">Soda Springs</a></li>
+              <li><a href="Fish_haven-11.html">Fish Haven</a></li>
+              <li><a href="Storm_submit-11.html">Storm Center</a></li>
+              <li><a href="/Lesson07/lazy_load.html">Gallery</a></li>
+              </ul>
+            </nav>
+        </header>
+        <main>
+          <h2>Soda Springs, Idaho</h2>
+          <div class="heroBanner">
+            <picture>
+              <source media="(max-width:640px)" srcset="/Lesson11/images/wdd230_image_franklinOriginal-small.webp">
+                <source media="(max-width:840px)" srcset="/Lesson11/images/wdd230_image_franklinOriginal-medium.webp">
+              <img src="/Lesson11/images/wdd230_image_franklinOriginal.webp" alt="banner" style="width:auto;">
+            </picture>
+            <div class="current">
+                <h3>Current Weather</h3>
+                <p>
+                  Currently: <span id="current">Error</span><br>
+                  Tempature: <span id="temp"> - </span> ℉<br>
+                  Wind Chill: <span id="windchill"> - </span>
+                  Humidity: <span id="humidity"> - </span> % <br>
+                  Wind Speed: <span id="wind"> - </span> MPH
+                </p>
+            </div>
+        </div>
+        <h2>Five Day Weather Forecast</h2>
+        <div class="five-day-bar">
+          <section class="five-day-box">
+            <div class="daybox">
+              <p class="day" id="day1">Mon</p>
+              <p><span id="temp1">70</span> ℉</p>
+              <p>
+                <img id = "img1" src = "images/broken-clouds.png" alt = "Broken clouds" title = "Broken clouds"/>
+              </p>
+            </div>
+            <div class="daybox">
+              <p class="day" id="day2">Tues</p>
+              <p><span id="temp2">65</span> ℉</p>
+              <p>
+                <img id = "img2" src = "images/broken-clouds.png" alt = "Broken clouds" title = "Broken clouds"/>
+              </p>
+            </div>
+            <div class="daybox">
+              <p class="day" id="day3">Wed</p>
+              <p><span id="temp3">64</span> ℉</p>
+              <p>
+                <img id = "img3" src = "images/broken-clouds.png" alt = "Broken clouds" title = "Broken clouds"/>
+              </p>
+            </div>
+            <div class="daybox">
+              <p class="day" id="day4">Thurs</p>
+              <p><span id="temp4">58</span> ℉</p>
+              <p>
+                <img id = "img4" src = "images/broken-clouds.png" alt = "Broken clouds" title = "Broken clouds"/>
+              </p>
+            </div>
+            <div class="daybox">
+              <p class="day" id="day5">Fri</p>
+              <p><span id="temp5">45</span> ℉</p>
+            <p>
+                <img id = "img5" src = "images/broken-clouds.png" alt = "Broken clouds" title = "Broken clouds"/>
+            </p>
+            </div>
+          </section>
+        </div>
+          <div class="box">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Esse voluptate beatae excepturi sequi accusamus dignissimos 
+                pariatur dolore quis ullam, tempora corporis, nostrum totam 
+                repellendus porro quos consequatur nesciunt quam sed? Lorem
+                 ipsum dolor sit amet, consectetur adipisicing elit. Sint 
+                 eveniet vero laborum! Inventore excepturi et, quidem 
+                 laudantium obcaecati numquam odit nam sequi accusamus nulla
+                  porro explicabo recusandae itaque aliquam reprehenderit. 
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Totam iure, quod velit soluta praesentium voluptas suscipit a
+                  ad, aliquam, laborum exercitationem! Nam fuga illo accusamus 
+                  voluptatibus cumque consequuntur dignissimos placeat.</p>
+          </div>
+        </main>
+        <footer>
+          <div class="map-box box">
+            <picture>
+            <source media="(max-width:740px)" srcset="/Lesson11/images/preston-map-small.webp">
+            <img src="/Lesson11/images/preston-map.webp" alt="banner" style="width:auto;">
+          </picture>
+        </div>
+          <div class="contact">
+            <p>aaronsweatheremporium@gmail.com</p>
+            <p>For service call: 123-456-7891</p>
+            <p>Or mail us at 123 Rocky Rd Nowhere, Idaho</p>
+            <a href="https://www.facebook.com/"><img src="images/facebook link.png"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram link.png"></a>
+            <a href="https://twitter.com/"><img src="images/twitter link.png"></a>
+          </div>
+          
+          <div class="footerbar">
+            <p class="legal">
+            &#169; <span id="copyrightyear">2020</span> | Aaron W. Dunn| Rexburg,
+            Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+          </p>
+          <p class="modified">
+              Date modified: <script type="text/javascript">
+                modified();
+              </script>
+          </p>
+        </div>
+        </footer>
+    </body>
+</html>

@@ -1,97 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Aaron's Weather Emporium</title>
-        <link rel="stylesheet" href="/Lesson06/css/normalize.css" />
-        <link rel="stylesheet" href="/Lesson06/css/Preston-6.css" />
+        <link rel="stylesheet" href="/Lesson11/css/normalize.css" />
+        <link rel="stylesheet" href="/Lesson11/css/weather_site-11.css" />
         <link rel="shortcut icon" href="favicon.ico">
-        <script src="/Lesson06/js/Preston-6.js"></script>
-        <script src="/Lesson06/js/windchill.js"></script>
+        <script src="/Lesson11/js/scripts-11.js"></script>
+        <script src="js/town_info-11.js"></script>
     </head>
     <body>
       <div id="banner" class="hidden">Preston Pancakes in the Park! 9:00 a.m. Saturday at the city pavilion. </div>
         <header>
-            <img src="/Lesson06/images/storm_logo.png" alt="Aaron's Weather Emporium Icon">
+            <img src="/Lesson11/images/storm_logo.png" alt="Aaron's Weather Emporium Icon">
             <h1>Home</h1>
             <p>What's the weather in your neigborhood like?</p>
             <nav>
                     <ul class="navigation responsive">
                     <li><a class="ham" href="#">&#9776; Menu</a></li>
-                    <li class="selected"><a href="Preston-6.html">Home</a></li>
-                    <li><a href="#">Preston</a></li>
-                    <li><a href="#">Soda Springs</a></li>
-                    <li><a href="#">Fish Haven</a></li>
-                    <li><a href="#">Storm Center</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li class="selected"><a href="index.html">Home</a></li>
+                    <li><a href="Preston-11.html">Preston</a></li>
+                    <li><a href="Soda_springs-11.html">Soda Springs</a></li>
+                    <li><a href="Fish_haven-11.html">Fish Haven</a></li>
+                    <li><a href="Storm_submit-11.html">Storm Center</a></li>
+                    <li><a href="/Lesson07/lazy_load.html">Gallery</a></li>
                     </ul>
             </nav>
         </header>
         <main>
-          <h2>Preston, Idaho</h2>
-          <div class="heroBanner">
-            <picture>
-              <source media="(max-width:640px)" srcset="/Lesson06/images/wdd230_image_franklinOriginal-small.webp">
-                <source media="(max-width:840px)" srcset="/Lesson06/images/wdd230_image_franklinOriginal-medium.webp">
-              <img src="/Lesson06/images/wdd230_image_franklinOriginal.webp" alt="banner" style="width:auto;">
-            </picture>
-            <div class="current">
-                <h3>Current Weather</h3>
-                <p>
-                  Currently: Sunny<br>
-                  Tempature:<span id="temp">39</span>ºF<br>
-                  Wind Chill: <span id="windchill"> - </span>
-                  Humidity: 69% <br>
-                  Wind Speed: <span id="wind">4</span> MPH
-                </p>
-            </div>
-        </div>
-        <h3>Five Day Weather Forecast</h3>
-        <div class="five-day-bar">
-          <section class="five-day-box">
-            <div class="daybox">
-              <p class="day">Mon</p>
-              <p class="temp">70℉</p>
-            </div>
-            <div class="daybox">
-              <p class="day">Tues</p>
-              <p class="temp">65℉</p>
-            </div>
-            <div class="daybox">
-              <p class="day">Wed</p>
-              <p class="temp">64℉</p>
-            </div>
-            <div class="daybox">
-              <p class="day">Thurs</p>
-              <p class="temp">58℉</p>
-            </div>
-            <div class="daybox">
-              <p class="day">Fri</p>
-              <p class="temp">45℉</p>
-            </div>
-          </section>
-        </div>
-          <div class="box">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Esse voluptate beatae excepturi sequi accusamus dignissimos 
-                pariatur dolore quis ullam, tempora corporis, nostrum totam 
-                repellendus porro quos consequatur nesciunt quam sed? Lorem
-                 ipsum dolor sit amet, consectetur adipisicing elit. Sint 
-                 eveniet vero laborum! Inventore excepturi et, quidem 
-                 laudantium obcaecati numquam odit nam sequi accusamus nulla
-                  porro explicabo recusandae itaque aliquam reprehenderit. 
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                 Totam iure, quod velit soluta praesentium voluptas suscipit a
-                  ad, aliquam, laborum exercitationem! Nam fuga illo accusamus 
-                  voluptatibus cumque consequuntur dignissimos placeat.</p>
-          </div>
+            <h2 >Towns</h2>
+            <div class="towns"></div>
         </main>
         <footer>
           <div class="map-box box">
             <picture>
-            <source media="(max-width:740px)" srcset="/Lesson06/images/preston-map-small.webp">
-            <img src="/Lesson06/images/preston-map.webp" alt="banner" style="width:auto;">
+            <source media="(max-width:740px)" srcset="/Lesson11/images/preston-map-small.webp">
+            <img src="/Lesson11/images/preston-map.webp" alt="banner" style="width:auto;">
           </picture>
         </div>
           <div class="contact">
