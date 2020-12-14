@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="/Lesson10/css/weather_site-10.css" />
         <link rel="shortcut icon" href="favicon.ico">
         <script src="/Lesson10/js/scripts-10.js"></script>
-        <script src="/Lesson10/js/windchill.js"></script>
+        <script src="/Lesson10/js/weather-10.js"></script>
     </head>
     <body>
       <div id="banner" class="hidden">Preston Pancakes in the Park! 9:00 a.m. Saturday at the city pavilion. </div>
@@ -39,36 +39,51 @@
             <div class="current">
                 <h3>Current Weather</h3>
                 <p>
-                  Currently: Sunny<br>
-                  Tempature:<span id="temp">39</span>ºF<br>
+                  Currently: <span id="current">Error</span><br>
+                  Tempature: <span id="temp"> - </span> ℉<br>
                   Wind Chill: <span id="windchill"> - </span>
-                  Humidity: 69% <br>
-                  Wind Speed: <span id="wind">4</span> MPH
+                  Humidity: <span id="humidity"> - </span> % <br>
+                  Wind Speed: <span id="wind"> - </span> MPH
                 </p>
             </div>
         </div>
-        <h3>Five Day Weather Forecast</h3>
+        <h2>Five Day Weather Forecast</h2>
         <div class="five-day-bar">
           <section class="five-day-box">
             <div class="daybox">
-              <p class="day">Mon</p>
-              <p class="temp">70℉</p>
+              <p class="day" id="day1">Mon</p>
+              <p><span id="temp1">70</span> ℉</p>
+              <p>
+                <img id = "img1" src = "images/broken-clouds.png" alt = "Broken clouds" title = "Broken clouds"/>
+              </p>
             </div>
             <div class="daybox">
-              <p class="day">Tues</p>
-              <p class="temp">65℉</p>
+              <p class="day" id="day2">Tues</p>
+              <p><span id="temp2">65</span> ℉</p>
+              <p>
+                <img id = "img2" src = "images/broken-clouds.png" alt = "Broken clouds" title = "Broken clouds"/>
+              </p>
             </div>
             <div class="daybox">
-              <p class="day">Wed</p>
-              <p class="temp">64℉</p>
+              <p class="day" id="day3">Wed</p>
+              <p><span id="temp3">64</span> ℉</p>
+              <p>
+                <img id = "img3" src = "images/broken-clouds.png" alt = "Broken clouds" title = "Broken clouds"/>
+              </p>
             </div>
             <div class="daybox">
-              <p class="day">Thurs</p>
-              <p class="temp">58℉</p>
+              <p class="day" id="day4">Thurs</p>
+              <p><span id="temp4">58</span> ℉</p>
+              <p>
+                <img id = "img4" src = "images/broken-clouds.png" alt = "Broken clouds" title = "Broken clouds"/>
+              </p>
             </div>
             <div class="daybox">
-              <p class="day">Fri</p>
-              <p class="temp">45℉</p>
+              <p class="day" id="day5">Fri</p>
+              <p><span id="temp5">45</span> ℉</p>
+            <p>
+                <img id = "img5" src = "images/broken-clouds.png" alt = "Broken clouds" title = "Broken clouds"/>
+            </p>
             </div>
           </section>
         </div>

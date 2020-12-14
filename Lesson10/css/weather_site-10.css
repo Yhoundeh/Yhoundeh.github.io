@@ -92,8 +92,8 @@ main h2 {
 }
 
 p {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
 /*five day forcast*/
@@ -152,6 +152,7 @@ fiveday {
     left: 10px;
     background-color: rgba(3, 23, 59, 0.445);
     color: whitesmoke;
+    line-height: 130%;
 }
 
 .current h3 {
@@ -221,12 +222,6 @@ footer .map-box img {
 #banner:hover{
     background-color: red;
     color:yellow;
-  }
-
-  #banner::first-letter {
-    font-weight: bold;
-    font-size: xx-large;
-    color: green;
   }
 
   .towns {
