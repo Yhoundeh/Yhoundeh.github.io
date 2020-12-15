@@ -3,7 +3,15 @@
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  max-width: 300px;
+  max-height: 225px;
+}
+
+.grid {
+  margin: 1em;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  grid-gap: 2px;
 }
 
 .image:hover {

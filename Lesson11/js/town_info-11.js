@@ -59,7 +59,7 @@ window.addEventListener('load', (event)=>{
                     link.setAttribute('href', '/Lesson11/Fish_haven-11.html');
                 }
                 else if (towns[i].name == 'Preston'){
-                    link.setAttribute('href', 'Preston-11.html');
+                    link.setAttribute('href', '/Lesson11/Preston-11.html');
                 }
                 else if (towns[i].name == 'Soda Springs'){
                     link.setAttribute('href', '/Lesson11/Soda_springs-11.html');

@@ -402,3 +402,25 @@ h4, h3 {
 	background-color:rgb(16, 13, 56);
 }
 
+#eventbox {
+    background-color: #1f5baa;
+    color: white;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.527);
+    line-height: 2em;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+    font-size: larger;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#eventbox h2 {
+    text-align: center;
+    border-bottom: 2px solid darkgrey;
+    padding-bottom: 0.5em;
+}
+#events {
+    padding-left: 1em;
+    margin: 2em;
+}
