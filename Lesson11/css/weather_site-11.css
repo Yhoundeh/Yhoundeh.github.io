@@ -136,6 +136,9 @@ fiveday {
 
   .heroBanner img {
     max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .heroBanner {
@@ -149,7 +152,7 @@ fiveday {
     width: 220px;
     height: 200px;
     top: 10px;
-    left: 10px;
+    left: 120px;
     background-color: rgba(3, 23, 59, 0.445);
     color: whitesmoke;
     line-height: 130%;
