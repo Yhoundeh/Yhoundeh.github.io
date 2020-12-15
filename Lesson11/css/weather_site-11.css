@@ -366,15 +366,19 @@ form p {
     margin: 0.5em;
  }
 
-
+ main #image6 {
+    margin-top: -0.70em;
+}
 
 .data {
     color: white;
     padding: 1em;
 }
+
 h3:nth-of-type(3) {
     padding: 0em;
 }
+
 .towns a:hover {
     background-color: #2893ea;
 }

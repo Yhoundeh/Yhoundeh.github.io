@@ -37,7 +37,7 @@ function adjustRating(rating) {
 }
 
 window.addEventListener('load', (event)=>{
-  // The url of the API that we are using.
+  // The url of the Json that we are using.
   const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
   // Fetch the JSON file.
@@ -46,13 +46,12 @@ window.addEventListener('load', (event)=>{
       return response.json();
   })
   .then(function (jsonObject) {
-      // When done, save the data to the towns variable.
-      console.table(jsonObject);  // temporary checking for valid response and data parsing
-      const towns = jsonObject['towns'];
+      console.table(jsonObject);  // temporary checking for valid response and data parsing (remove?)
+      const towns = jsonObject['towns']; // create variable for the Json.
 
       // Loop through the list of towns.
       for (i = 0; i < towns.length; i++) {
-          // Only Use the Fish Haven, Preston, and Soda Springs.
+          // Find Fish Haven, Preston, and Soda Springs.
           if (towns[i].name == 'Fish Haven' || towns[i].name == 'Preston' || towns[i].name == 'Soda Springs') {
               // Create all the needed elements for the cards.
               let link = document.createElement('a');
@@ -86,19 +85,19 @@ window.addEventListener('load', (event)=>{
               cardText.appendChild(population);
               cardText.appendChild(rainFall);
 
-              // Append the text and the image to the cards.
+              // Insert the text and the image to the cards.
               card.appendChild(cardText);
               card.appendChild(images);
 
-              // Set the link for the cards.
+              // Set the link for the cards. (inprogress)
               if (towns[i].name == 'Fish Haven'){
-                  link.setAttribute('href', '#');
+                  link.setAttribute('href', '/Lesson11/Fish_haven-11.html');
               }
               else if (towns[i].name == 'Preston'){
                   link.setAttribute('href', 'Preston-9.html');
               }
               else if (towns[i].name == 'Soda Springs'){
-                  link.setAttribute('href', '#');
+                  link.setAttribute('href', '/Lesson11/Soda_springs-11.html');
               }
               else {
                   link.setAttribute('#');
