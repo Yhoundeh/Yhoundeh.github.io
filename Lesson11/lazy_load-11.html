@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/Lesson11/css/normalize.css" />
+        <link rel="stylesheet" href="/Lesson11/css/weather_site-11.css" />
+        <link rel="stylesheet" href="/Lesson11/css/gallery-11.css">
+        <link rel="shortcut icon" href="favicon.ico">
+        <script src="/Lesson11/js/scripts-11.js"></script>
+        <script src="/Lesson11/js/gallery-11.js"></script>
+        
+        <title>Sunsets</title>
+    </head>
+    <body>
+        <header>
+            <img src="/Lesson11/images/storm_logo.png" alt="Aaron's Weather Emporium Icon">
+            <h1>Home</h1>
+            <p>What's the weather in your neigborhood like?</p>
+            <nav>
+                    <ul class="navigation responsive">
+                    <li><a class="ham" href="#">&#9776; Menu</a></li>
+                    <li class="selected"><a href="index.html">Home</a></li>
+                    <li><a href="Preston-11.html">Preston</a></li>
+                    <li><a href="Soda_springs-11.html">Soda Springs</a></li>
+                    <li><a href="Fish_haven-11.html">Fish Haven</a></li>
+                    <li><a href="Storm_submit-11.html">Storm Center</a></li>
+                    <li><a href="/Lesson07/lazy_load.html">Gallery</a></li>
+                    </ul>
+            </nav>
+        </header>
+        <!-- first image -->
+        <div loading="lazy">
+            <img class="image" src="images/sunset.jpg" alt="Sunset by docks">
+        </div>
+
+        <!-- second image -->
+        <div loading="lazy">
+            <img class="image" src="images/sunset2.jpg" alt="Sunset over waves">
+        </div>
+
+        <!-- third image -->
+        <div loading="lazy">
+            <img class="image" src="images/sunset3.jpg" alt="Sunset in a desert">
+        </div>
+
+         <!-- fourth image -->
+         <div loading="lazy">
+            <img class="image" src="images/sunset4.jpg" alt="Sunset over a forest">
+        </div>
+
+        <!-- modal -->
+        <div id="myModal" class="modal">
+            <span class="close">×</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+        <footer>
+            <div class="map-box box">
+              <picture>
+              <source media="(max-width:740px)" srcset="/Lesson11/images/preston-map-small.webp">
+              <img src="/Lesson11/images/preston-map.webp" alt="banner" style="width:auto;">
+            </picture>
+          </div>
+            <div class="contact">
+              <p>aaronsweatheremporium@gmail.com</p>
+              <p>For service call: 123-456-7891</p>
+              <p>Or mail us at 123 Rocky Rd Nowhere, Idaho</p>
+              <a href="https://www.facebook.com/"><img src="images/facebook link.png"></a>
+              <a href="https://www.instagram.com/"><img src="images/instagram link.png"></a>
+              <a href="https://twitter.com/"><img src="images/twitter link.png"></a>
+            </div>
+            
+            <div class="footerbar">
+              <p class="legal">
+              &#169; <span id="copyrightyear">2020</span> | Aaron W. Dunn| Rexburg,
+              Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+            </p>
+            <p class="modified">
+                Date modified: <script type="text/javascript">
+                  modified();
+                </script>
+            </p>
+          </div>
+          </footer>
+    
+    </body>
+</html>
