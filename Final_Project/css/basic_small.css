@@ -63,8 +63,8 @@ body {
 
 #info {
     position: absolute;
-    bottom: -55px;
-    left: 20px;
+    top: 10em;
+    left: 1.5em;
     background: rgba(0, 0, 0, 0.5);
     color: white;
     padding-left: 20px;
