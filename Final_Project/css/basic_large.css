@@ -18,4 +18,27 @@
     #send-message {
         grid-column: 2;
     }
+    #main {
+        display:grid;
+        grid-template-columns: 940px auto;
+    }
+
+    #main section {
+        padding: 2em;
+    }
+
+}
+#res {
+    background-color: #ffffff00;
+    border-radius: 10px;
+    text-decoration: none;
+    background-image: url("/Final_Project/images/arrow.png");
+    padding: 4.5em;
+    position: absolute;
+    bottom: 2em;
+    right: 25em;
+}
+#res a {
+    color: white;
+    text-decoration: none;
 }
