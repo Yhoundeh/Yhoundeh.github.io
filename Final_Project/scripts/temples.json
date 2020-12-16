@@ -1,0 +1,188 @@
+{
+    "temples": [
+        {
+            "name": "Gilbert Arizona Temple",
+            "address": "3301 S Greenfield Rd, Gilbert, AZ, 85297, US",
+            "phone": "480-822-5000",
+            "email": "gilberarizona@churchofjesuschrist.org",
+            "services": [
+                {
+                    "clothing": true,
+                    "cafeteria": false,
+                    "housing": false,
+                    "distribution": true
+                }
+            ],
+            "history": [
+                {
+                    "announced": "April 10, 2008",
+                    "groundbreaking": "November 13, 2010",
+                    "dedicated": "March 2, 2014"
+                }
+            ],
+            "ordinance-schedule": "9:00 AM - 3:00 PM",
+            "session-schedule": [
+                "9:00 - 10:00 AM",
+                "10:00 - 11:00 AM",
+                "11:00 - 12:00 PM",
+                "12:00 - 1:00 PM",
+                "1:00 - 2:00 PM",
+                "2:00 - 3:00 PM"
+            ],
+            "status": ["LIVING ORDINANCES"],
+            "weather-code": "5295903",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/gilbert-arizona/400x250/gilbert-arizona-lds-temple-1172166-wallpaper.jpg"
+        },
+        {
+            "name": "Mesa Arizona Temple",
+            "address": "101 S LeSueur, Mesa, AZ, 85204-1031, US",
+            "phone": "None",
+            "email": "mesaarizona@churchofjesuschrist.org",
+            "services": [
+                {
+                    "clothing": false,
+                    "cafeteria": false,
+                    "housing": false,
+                    "distribution": false
+                }
+            ],
+            "history": [
+                {
+                    "announced": "October 1, 1919",
+                    "groundbreaking": "April 25, 1922",
+                    "dedicated": "October 23, 1927"
+                }
+            ],
+            "ordinance-schedule": ["None"],
+            "session-schedule": ["None"],
+            "status": ["Closed for renovations"],
+            "weather-code": "5304391",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mesa-arizona/400x250/mesa-temple-766332-wallpaper.jpg"
+        },
+        {
+            "name": "Los Angeles California Temple",
+            "address": "10777 Santa Monica Blvd, Los Angeles, CA, 90025-4718, US",
+            "phone": "310-474-5569",
+            "email": "losangelescalifornia@churchofjesuschrist.org",
+            "services": [
+                {
+                    "clothing": true,
+                    "cafeteria": true,
+                    "housing": true,
+                    "distribution": true
+                }
+            ],
+            "history": [
+                {
+                    "announced": "March 6, 1937",
+                    "groundbreaking": "September 22, 1951",
+                    "dedicated": "March 11, 1956"
+                }
+            ],
+            "ordinance-schedule": "9:00 AM - 3:00 PM",
+            "session-schedule": [
+                "9:00 - 10:00 AM",
+                "10:00 - 11:00 AM",
+                "11:00 - 12:00 PM",
+                "12:00 - 1:00 PM",
+                "1:00 - 2:00 PM",
+                "2:00 - 3:00 PM"
+            ],
+            "status": ["LIVING SEALINGS ONLY"],
+            "weather-code": "5368361",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/los-angeles-california/400x250/los-angeles-california-temple-1079458-wallpaper.jpg"
+        },
+        {
+            "name": "Salt Lake Temple",
+            "address": "50 W North Temple St, Salt Lake City, UT, 84150-9709, US",
+            "phone": "None",
+            "email": "saltlakecityutah@churchofjesuschrist.org",
+            "services": [
+                {
+                    "clothing": false,
+                    "cafeteria": false,
+                    "housing": false,
+                    "distribution": false
+                }
+            ],
+            "history": [
+                {
+                    "announced": "July 28, 1847",
+                    "groundbreaking": "February 14, 1853",
+                    "dedicated": "April 6, 1893"
+                }
+            ],
+            "ordinance-schedule": ["None"],
+            "session-schedule": ["None"],
+            "status": ["Closed for renovations"],
+            "weather-code": "5780993",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/2018/400x250/slctemple7.jpg"
+        },
+        {
+            "name": "Meridian Idaho Temple",
+            "address": "7355 n Linder Rd, Miridian, AID, 83646, US",
+            "phone": "208-957-7300",
+            "email": "meridianidaho@churchofjesuschrist.org",
+            "services": [
+                {
+                    "clothing": false,
+                    "cafeteria": false,
+                    "housing": false,
+                    "distribution": false
+                }
+            ],
+            "history": [
+                {
+                    "announced": "April 2, 2011",
+                    "groundbreaking": "August 23, 2014",
+                    "dedicated": "November 19, 2017"
+                }
+            ],
+            "ordinance-schedule": "9:00 AM - 3:00 PM",
+            "session-schedule": [
+                "9:00 - 10:00 AM",
+                "10:00 - 11:00 AM",
+                "11:00 - 12:00 PM",
+                "12:00 - 1:00 PM",
+                "1:00 - 2:00 PM",
+                "2:00 - 3:00 PM"
+            ],
+            "status": ["LIVING ORDINANCES ONLY"],
+            "weather-code": "5600685",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/meridian-idaho/400x250/meridian-idaho-1962615.jpg"
+        },
+        {
+            "name": "Boise Idaho Temple",
+            "address": "1211 S Cole Rd, Boise, ID, 83709-1871, US",
+            "phone": "208-322-4422",
+            "email": "boiseidaho@churchofjesuschrist.org",
+            "services": [
+                {
+                    "clothing": false,
+                    "cafeteria": false,
+                    "housing": false,
+                    "distribution": true
+                }
+            ],
+            "history": [
+                {
+                    "announced": "March 31, 1982",
+                    "groundbreaking": "December 18, 1982",
+                    "dedicated": "May 25, 1984"
+                }
+            ],
+            "ordinance-schedule": "9:00 AM - 3:00 PM",
+            "session-schedule": [
+                "9:00 - 10:00 AM",
+                "10:00 - 11:00 AM",
+                "11:00 - 12:00 PM",
+                "12:00 - 1:00 PM",
+                "1:00 - 2:00 PM",
+                "2:00 - 3:00 PM"
+            ],
+            "status": ["LIVING ORDINANCES"],
+            "weather-code": "5586437",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boise-idaho/2018/400x250/1-Boise-Idaho-Temple-1968984.jpg"
+        }
+    ]
+}
