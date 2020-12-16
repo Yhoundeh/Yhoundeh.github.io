@@ -5,4 +5,17 @@
         grid-gap: 1em 1em;
         text-align: center;
     }
+    iframe {
+        display: inline;
+        border-radius: 10px;
+        grid-row: 1/3;
+        padding: 1em;
+    }
+    #contact-info {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    #send-message {
+        grid-column: 2;
+    }
 }
