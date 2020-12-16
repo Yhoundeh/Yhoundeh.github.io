@@ -21,13 +21,66 @@
                     <a class="selected" href = "/Final_Project/reservations.html"><li>Make a Reservation</li></a>
                     <a href = "/Final_Project/contact.html"><li>Contact Us</li></a>
                 </ul>
-                <section>
-                    <h1><a href = "/Final_Project/index.html">Home</a>><a href = "reservations.html">Make a Reservation</a></h1>
-                </section>
+                <span>
+                    <h2><a href = "/Final_Project/index.html">Home</a> ><a href = "reservations.html">Make a Reservation</a></h2>
+                </span>
             </nav>
         </header>
         <main>
-           
+            <form method="GET" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <section>
+                        <label>Full Name* <input type="text" name="fname" required=""></label>
+                    </section>
+                    <br>
+                    <section>
+                        <label>Phone* <input type="tel" name="phone" placeholder="###-###-####" required=""></label>
+                        <label>Email <input type="email" name="email" placeholder="user@gmail.com"></label>
+                        <label id="zip">Zip Code* <input type="number" name="zip" required="" size="5"></label>
+                    </section>
+                    <p>Fields marked * are required</p>
+                </fieldset>
+                <fieldset>
+                    <legend>Reservation Information</legend>
+                    <section>
+                        <label>Arrival Date <input type="date" name="arrivalDate"></label>
+                        <label>Departure Date <input type="date" name="departureDate"></label><br>
+                        <label >Which branch would you like to make a reservation with?<br>
+                            <select name="reservationLocation">
+                                <option value="">Select Region ▾</option>
+                                <option value="boise">Boise, ID</option>
+                                <option value="gilbert">Gilbert, AZ</option>
+                                <option value="meridian">Meridian, ID</option>
+                                <option value="mesa">Mesa, AZ</option>
+                                <option value="saltLake">Salt Lake, UT</option>
+                                <option value="losAngeles">Los Angeles, CA</option>
+                            </select>
+                        </label>
+                        <label>
+                            Room Number <input type="number" name="room">
+                        </label>
+                        <section>
+                            <label>User in-danger Level</label><br>
+                            <label><input type="radio" name="roomType" value="single"> Single Bed</label>
+                            <label><input type="radio" name="roomType" value="2bedroom"> Two Bedroom</label>
+                            <label><input type="radio" name="roomType" value="kitchenette"> Kitchenette Suite</label>
+                        </section>
+                    </section>
+                    <section>
+                        <label>Are you a full time temple missionary?</label><br>
+                        <label><input type="radio" name="missionary" value="yes"> Yes</label>
+                        <label><input type="radio" name="missionary" value="no"> No</label>
+                        <label><input type="radio" name="missionary" value="diffrent"> I'm a diffrent kind of missionay</label>
+                    </section>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Do you have any special needs or accomidations?</legend>
+                    <textarea id="special" name="comments" rows="10" cols="45"></textarea>
+                </fieldset>
+                <input class="submitbutton" type="submit" value="Report Storm">
+            </form>
         </main>
         <footer>
             <a href="https://www.churchofjesuschrist.org/referrals/?lang=eng" class="referal">

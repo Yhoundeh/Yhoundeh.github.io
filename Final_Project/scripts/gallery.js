@@ -80,10 +80,10 @@ window.addEventListener('load', (event)=>{
             weatherTitle.textContent = "Current Weather";
 
             // Setup to url for the API.
-            const apiurl = "https://api.openweathermap.org/data/2.5/weather?id="+ temples[i]["weather-code"] +"&appid=7ad91157396706864277130b86e11838&units=imperial";
+            const weatherurl = "https://api.openweathermap.org/data/2.5/weather?id="+ temples[i]["weather-code"] +"&appid=7ad91157396706864277130b86e11838&units=imperial";
 
             // Fetch the data.
-            fetch(apiurl)
+            fetch(weatherurl)
             .then(function (response) {
                 return response.json();
             })
