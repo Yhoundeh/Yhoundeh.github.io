@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+h1, h2, h3 {
+    font-family: "Lato", Helvetica, sans-serif;
+    margin: 0.2em;
+}
+
+header, footer {
+    background-color: #003a70;
+    border-radius: 0px 0px 11px 11px;
+}
+
+header img {
+    float: left;
+    width: 64px;
+    height: 64px;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+nav ul {
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 1.4em;
+    
+}
+
+nav a {
+    color:white;
+    padding-left: 0.5em;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #0872ce;
+    color: #F1FAEE;
+}
+
+nav li {
+    display: inline;
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav h2 a:hover {
+    border-bottom: 2px solid #E63946;
+}
+
+nav div {
+    background-color: #a8abad;
+    border-top: 5px solid #E63946;
+    color:white;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0;
+    padding-bottom: 1px;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    background-color: #F1FAEE;
+}
+
+#info {
+    position: absolute;
+    bottom: -55px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact-box {
+    color: black;
+    background-color: #F1FAEE;
+    border: 5px solid #E63946;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin: 1em;
+    float: right;
+}
+
+.referal {
+    color: black;
+    background-color: #F1FAEE;
+    border: 5px solid #E63946;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin: 1em;
+    float: left;
+    text-decoration: none;
+}
+.media-links img{
+    border-radius: 10px;
+    float: left;
+    margin: 0.5em;
+    margin-top: -2em;
+}
+.footerbar p:nth-child(2) {
+    color: yellow;
+    font-size: 0.8em;
+  }
+
+  footer div {
+    line-height: normal;
+    text-align: center;
+    color: whitesmoke;
+    padding: 1em;
+  }
+
+  footer div a {
+      color: #F1FAEE;
+  }
+
+  footer div a:hover {
+      color: #E63946
+  }
+
+@media only screen and (max-width: 740px) {
+
+}
