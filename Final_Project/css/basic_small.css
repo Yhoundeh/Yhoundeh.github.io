@@ -5,6 +5,10 @@ h1, h2, h3 {
     margin: 0.2em;
 }
 
+h4, p {
+    margin: 1em;
+}
+
 header, footer {
     background-color: #003a70;
     border-radius: 0px 0px 11px 11px;
@@ -76,7 +80,61 @@ img {
     padding-left: 20px;
     padding-right: 20px;
 }
+#services {
+    margin-left: 4em;
+    margin-right: 4em;
+}
 
+.underline {
+    border-bottom: 2px solid blue;
+ 
+}
+#food {
+    float:right;
+    max-width: 300px;
+    margin-right: -0.3em;
+}
+#hall {
+    float:left;
+    max-width: 300px;
+    margin-left: -0.3em;
+}
+#kitchen {
+    padding: 1em;
+}
+#room {
+    padding: 1em;
+}
+#missionaryPage {
+    background-color: #0872ce;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin: 1em;
+    display: inline;
+}
+
+#missionaryPage a {
+    color: white;
+    text-decoration: none;
+}
+
+#receptionPage {
+    background-color: #0872ce;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    display:inline;
+}
+
+#receptionPage a {
+    color: white;
+    text-decoration: none;
+}
+#send-message {
+    display: inline-block;
+    margin-left: 2em;
+    margin-right: 2em;
+}
 .contact-box {
     color: black;
     background-color: #F1FAEE;
@@ -86,7 +144,16 @@ img {
     margin: 1em;
     float: right;
 }
-
+.submitbutton {
+    margin: 0.5em;
+    background-color: #0872ce;
+    border-radius: 10px;
+}
+#housing {
+    float: left;
+    margin-left: 1em;
+    margin-right: 1em;
+}
 .referal {
     color: black;
     background-color: #F1FAEE;
