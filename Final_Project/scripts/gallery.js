@@ -100,10 +100,10 @@ window.addEventListener('load', (event)=>{
             for (j = 0; j < temples[i]["session-schedule"].length; j++) {
                 sessionSch.innerHTML += temples[i]["session-schedule"][j] + " <br> ";
             };
-            // Loop through the closure data.
-            closures.innerHTML += "Next Week's Closures:<br>";
-            for (j = 0; j < temples[i].closure.length; j++) {
-                closures.innerHTML += temples[i].closure[j] + "<br>";
+            // Check the status.
+            status.innerHTML += "Current Temple Status:<br>";
+            for (j = 0; j < temples[i].status.length; j++) {
+                status.innerHTML += temples[i].status[j] + "<br>";
             };
 
             // Add history information.
@@ -126,7 +126,7 @@ window.addEventListener('load', (event)=>{
             text.appendChild(scheduleTitle);
             text.appendChild(ordinanceSch);
             text.appendChild(sessionSch);
-            text.appendChild(closures);
+            text.appendChild(status);
             text.appendChild(historyTitle);
             text.appendChild(announced);
             text.appendChild(groundbreaking);
